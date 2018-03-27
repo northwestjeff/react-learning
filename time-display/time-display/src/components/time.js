@@ -8,7 +8,7 @@ class Time extends React.Component {
         var m = today.getMinutes();
         return (
             <div>
-                <h2>Time Component</h2>
+                <h2 onClick={this.props.consoleTime}>Time Component</h2>
                 <p>{h}:{m}</p>
             </div>
         )

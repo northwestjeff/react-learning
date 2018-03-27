@@ -4,11 +4,8 @@ class City extends React.Component {
     render() {
         return (
             <div>
-                <h2>City</h2>
-                <form>
-                    <input type="radio" value='Portland' >Portland
-                    <input type="radio" value='Miami'>Miami
-                    <input type="radio" value='Chicago'>Chicago
+               <form>
+                    <input type="button" name='Portland' value='Portland' />
                 </form>
             </div>)
     }
